@@ -19,7 +19,7 @@ The work is implemented across **two complementary notebooks**, demonstrating bo
 ---
 
 ## 📊 Dataset
-- **Source**: Public Chicago Crime Dataset  https://www.kaggle.com/datasets/utkarshx27/crimes-2001-to-present/data
+- **Source**: Public Chicago Crime Dataset  
 - **Raw Size**: ~1M+ crime incidents  
 - **Data Type**: Event-level records  
 - **Final Structure**: Panel time series  
