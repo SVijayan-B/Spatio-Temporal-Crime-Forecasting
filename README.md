@@ -1,6 +1,6 @@
-# 🕵️‍♂️ Spatio-Temporal Crime Forecasting (Chicago)
+#  Spatio-Temporal Crime Forecasting (Chicago)
 
-## 📌 Overview
+## Overview
 This repository contains an end-to-end **spatio-temporal crime forecasting system** built using the public **Chicago Crime Dataset**.  
 The project predicts **future crime patterns at the police district level** and converts forecasts into **actionable insights for law-enforcement planning**.
 
@@ -8,7 +8,7 @@ The work is implemented across **two complementary notebooks**, demonstrating bo
 
 ---
 
-## 🎯 Objectives
+## Objectives
 - Forecast crime counts **per police district over time**
 - Capture **trend, seasonality, and regime shifts**
 - Handle **spatial heterogeneity** across districts
@@ -18,7 +18,7 @@ The work is implemented across **two complementary notebooks**, demonstrating bo
 
 ---
 
-## 📊 Dataset
+##  Dataset
 - **Source**: Public Chicago Crime Dataset  
 - **Raw Size**: ~1M+ crime incidents  
 - **Data Type**: Event-level records  
@@ -30,17 +30,17 @@ Each raw record represents a **single crime incident**, which is aggregated into
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
-├── notebook_1_weekly_model_comparison.ipynb
-├── notebook_2_monthly_district_forecasting.ipynb
-├── README.md
+    ├── notebook_1_weekly_model_comparison.ipynb 
+    ├── notebook_2_monthly_district_forecasting.ipynb
+    ├── README.md
 
 
 
 ---
 
-## 📘 Notebook 1 — Weekly Crime Forecasting & Model Comparison
+## Notebook 1 — Weekly Crime Forecasting & Model Comparison
 
 ### Focus
 Methodology, benchmarking, and model evaluation
@@ -79,7 +79,7 @@ Gradient boosting outperformed both classical and deep learning approaches on st
 
 ---
 
-## 📙 Notebook 2 — Monthly District Forecasting & Crime Risk
+## Notebook 2 — Monthly District Forecasting & Crime Risk
 
 ### Focus
 Police-oriented forecasting and decision support
@@ -128,15 +128,3 @@ Police-oriented forecasting and decision support
 - Forecasts are for aggregate crime counts only
 
 ---
-
-## 🚀 Future Work
-- Integrate real census population data
-- Crime-type–specific forecasting
-- Spatial adjacency and neighbor effects
-- Probabilistic forecasting with confidence intervals
-- Spatio-temporal graph neural networks (GNNs)
-
----
-
-## 📌 Resume Summary
-Developed a spatio-temporal crime forecasting system using Chicago crime data. Built weekly and monthly panel time-series models, benchmarked classical, ML, and DL approaches, and achieved significant error reduction using gradient boosting. Generated district-level future crime risk rankings to support proactive police resource planning.
